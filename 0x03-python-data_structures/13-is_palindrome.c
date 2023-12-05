@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * is_palindrome - recursive palind or not
+ * palindrom - recursive palind or not
  * @head: head list
  * return: 0 if it is not a palindrome
- * i if it is a palindrome
+ * 1 if it is a palindrome
  */
 int is_palindrome(listint_t **head)
 {
