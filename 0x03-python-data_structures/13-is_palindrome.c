@@ -3,7 +3,7 @@
 /**
  * palindrom - recursive palind or not
  * @head: head list
- * return: 0 if it is not a palindrome
+ * Return: 0 if it is not a palindrome
  * 1 if it is a palindrome
  */
 int is_palindrome(listint_t **head)
@@ -12,6 +12,7 @@ int is_palindrome(listint_t **head)
 		return (1);
 	return (aux_palind(head, *head));
 }
+
 /**
  * aux_palind - funct to know if is palindrome
  * @head: head list
