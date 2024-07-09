@@ -1,4 +1,4 @@
-#!/user/bin/python3
+#!/bash/bin/python3
 # check if URL aegument is provided
 if [ $# -ne 1 ];then
 	echo "Usage: $0 <URL>"
