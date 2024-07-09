@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # SEND A GET request and calculate the response size
-curl -sI | grep  "content-length" | wc -c
+-sI $1 | grep "content-length" | cut -d " " -f2
